@@ -20,7 +20,6 @@ class Calculations:
         quantity = amountUsed/marketPrice
         return quantity
 
-
     def ReduceDecimalPlaces(self,quantity):
 
         # Check no. of decimal places

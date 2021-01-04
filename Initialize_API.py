@@ -2,8 +2,6 @@ from binance.client import Client
 
 def InitializeAPI():
 
-    from binance.client import Client
-
     file1 = open('api_key.txt', 'r') 
     Lines = file1.readlines()
     apiarray = []
