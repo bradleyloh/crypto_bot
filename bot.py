@@ -46,9 +46,9 @@ if __name__ == "__main__":
 
     # Ask user for input
     amountPercentage = input("Percentage (enter 0.0-1.00): ")
-    altCoin = input("Enter alt-coin eg. IDEX: ")
     profitPercent = input("Enter percentage profit 5,10: ")
-    lossPercent = input("Enter percentage 5,10: ")
+    lossPercent = input("Enter percentage loss 5,10: ")
+    altCoin = input("Enter alt-coin eg. IDEX: ")
 
     main(amountPercentage,altCoin,profitPercent,lossPercent)
 

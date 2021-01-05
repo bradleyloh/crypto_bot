@@ -12,6 +12,7 @@ class Check:
     def CheckMarketPriceOfCoin(self,exchange):
         
         prices = client.get_symbol_ticker(symbol=exchange)
+    
         return float(prices["price"])
         
         # asset = 'BTC','ETH'
